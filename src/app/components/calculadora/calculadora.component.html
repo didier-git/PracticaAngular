@@ -1,0 +1,30 @@
+<div class="container justify-content-center">
+    <input value="{{Operacion}}" type="text" readonly>
+    <div class="row">
+        <button value=1 (click)="addNumber($event)">1</button>
+        <button value="2" (click)="addNumber($event)">2</button>
+        <button value="3" (click)="addNumber($event)">3</button>
+    </div>
+    <div class="row">
+        <button value="4" (click)="addNumber($event)">4</button>
+        <button value="5" (click)="addNumber($event)">5</button>
+        <button value="6" (click)="addNumber($event)">6</button>
+    </div>
+    <div class="row">
+        <button value="7" (click)="addNumber($event)">7</button>
+        <button value="8" (click)="addNumber($event)">8</button>
+        <button value="9" (click)="addNumber($event)">9</button>
+    </div>
+    <div class="row">
+        <button value="0" (click)="addNumber($event)">0</button>
+        <button (click)="operacion($event)">+</button>
+        <button>*</button>
+    </div>
+    <div class="row">
+        <button (click)="operacion($event)">/</button>
+        <button (click)="operacion($event)">-</button>
+        <button (click)="operacion($event)">=</button>
+    </div>
+
+
+</div>
